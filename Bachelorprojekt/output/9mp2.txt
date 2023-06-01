@@ -1,0 +1,78 @@
+-------------------------------------
+-----------BACHELORPROJEKT-----------
+-------------------------------------
+
+Indholdet fra den indlæste .xyz-fil "../../input/9ch4-STO-3G/geom.xyz":
+
+//////////////////////////////////////////////////
+5
+Methane
+C -0.000000000000  0.000000000000  0.000000000000
+H  1.183771681898 -1.183771681898 -1.183771681898
+H  1.183771681898  1.183771681898  1.183771681898
+H -1.183771681898  1.183771681898 -1.183771681898
+H -1.183771681898 -1.183771681898  1.183771681898
+//////////////////////////////////////////////////
+
+-----------HF-ENERGIBEREGNINGEN-----------
+
+Det brugte basissæt er: STO-3G
+Antallet af elektroner i molekylet er: 10
+Antallet af basisfunktioner er: 9
+Antallet af dobbeltokkuperede MO'er er: 5
+
+MED DIIS
+------------------------------------------------------------------------------------------------------------------------------------
+Iter.     Elek. energi / Hartrees      DeltaE / Hartrees                RMSD
+  0          -85.245230708238
+  1          -47.644058278702           37.601172429536            3.218271155854
+  2          -52.686879170978           -5.042820892276            0.439546019118
+  3          -53.280133366362           -0.593254195384            0.037351706788
+  4          -53.224549386564            0.055583979799            0.003837608346
+  5          -53.223993719229            0.000555667335            0.000452951138
+  6          -53.224253384756           -0.000259665527            0.000016510144
+  7          -53.224727680988           -0.000474296232            0.000030158817
+  8          -53.224461006118            0.000266674870            0.000016955832
+  9          -53.224154784144            0.000306221974            0.000019471561
+ 10          -53.224154786375           -0.000000002232            0.000000000534
+ 11          -53.224154786357            0.000000000018            0.000000000002
+ 12          -53.224154786383           -0.000000000026            0.000000000002
+ 13          -53.224154786383           -0.000000000000            0.000000000000
+------------------------------------------------------------------------------------------------------------------------------------
+
+Succes! Energien er konvergeret. RMSD er under den angivne grænse: 0.000000000001
+**Beregningstid: Programmet var 0 sekunder om at udføre den DIIS-accelererede HF SCF-beregning.
+
+Den endelige elektroniske energi / Hartrees:
+-53.224154786383
+
+Kernefrastødningen / Hartrees:
+13.497304462033
+
+Den endelige HF-energi / Hartrees:
+-39.726850324350
+
+E(MP2) / Hartrees:
+-0.056046676165
+
+Den korrigerede elektroniske energi / Hartrees:
+-53.280201462548
+
+Den korrigerede HF-energi / Hartrees:
+-39.782897000514
+
+**Beregningstid: Programmet var 8 sekunder om at beregne MP2-energien med den langsomme algoritme.
+
+-----------------MP2Quick-----------------
+
+E(MP2) / Hartrees:
+-0.056046676165
+
+Den korrigerede elektroniske energi / Hartrees:
+-53.280201462548
+
+Den korrigerede HF-energi / Hartrees:
+-39.782897000514
+
+**Beregningstid: Programmet var 0 sekunder om at beregne MP2-energien med den hurtige algoritme.
+

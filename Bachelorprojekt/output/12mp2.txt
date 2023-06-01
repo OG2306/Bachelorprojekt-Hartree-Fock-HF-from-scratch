@@ -1,0 +1,83 @@
+-------------------------------------
+-----------BACHELORPROJEKT-----------
+-------------------------------------
+
+Indholdet fra den indlæste .xyz-fil "../../input/12formaldehyd-STO-3G/geom.xyz":
+
+//////////////////////////////////////////////////
+4
+Formaldehyd
+O  0.000000000000  0.000000000000  1.256104651652
+C  0.000000000000  0.000000000000 -0.981814702204
+H  0.000000000000  1.746892950016 -2.078970720544
+H  0.000000000000 -1.746892950016 -2.078970720544
+//////////////////////////////////////////////////
+
+-----------HF-ENERGIBEREGNINGEN-----------
+
+Det brugte basissæt er: STO-3G
+Antallet af elektroner i molekylet er: 16
+Antallet af basisfunktioner er: 12
+Antallet af dobbeltokkuperede MO'er er: 8
+
+MED DIIS
+------------------------------------------------------------------------------------------------------------------------------------
+Iter.     Elek. energi / Hartrees      DeltaE / Hartrees                RMSD
+  0         -225.905545515347
+  1         -130.996887558297           94.908657957050            5.708708035278
+  2         -137.642709253899           -6.645821695602            3.843338535830
+  3         -141.558202460555           -3.915493206655            0.713096586607
+  4         -143.973220922167           -2.415018461613            0.569145216849
+  5         -144.116904340088           -0.143683417920            0.043898939192
+  6         -144.154322282445           -0.037417942357            0.008770534731
+  7         -144.153870201674            0.000452080771            0.002436740320
+  8         -144.152985913433            0.000884288241            0.000365206615
+  9         -144.153340763556           -0.000354850123            0.000106270755
+ 10         -144.153368299129           -0.000027535574            0.000030466046
+ 11         -144.153371091060           -0.000002791930            0.000003046681
+ 12         -144.153370924968            0.000000166091            0.000000298396
+ 13         -144.153370913709            0.000000011260            0.000000006263
+ 14         -144.153370915966           -0.000000002257            0.000000001346
+ 15         -144.153370915907            0.000000000059            0.000000000053
+ 16         -144.153370915896            0.000000000011            0.000000000007
+ 17         -144.153370915895            0.000000000001            0.000000000001
+------------------------------------------------------------------------------------------------------------------------------------
+
+Succes! Energien er konvergeret. Energiforskellen er under den angivne grænse: 0.000000000001
+**Beregningstid: Programmet var 0 sekunder om at udføre den DIIS-accelererede HF SCF-beregning.
+
+Den endelige elektroniske energi / Hartrees:
+-144.153370915895
+
+Kernefrastødningen / Hartrees:
+31.801683715692
+
+Den endelige HF-energi / Hartrees:
+-112.351687200203
+
+--------------------MP2--------------------
+
+E(MP2) / Hartrees:
+-0.112206330255
+
+Den korrigerede elektroniske energi / Hartrees:
+-144.265577246150
+
+Den korrigerede HF-energi / Hartrees:
+-112.463893530458
+
+**Beregningstid: Programmet var 77 sekunder om at beregne MP2-energien med den langsomme algoritme.
+
+-----------------MP2Quick-----------------
+
+E(MP2) / Hartrees:
+-0.112206330255
+
+Den korrigerede elektroniske energi / Hartrees:
+-144.265577246150
+
+Den korrigerede HF-energi / Hartrees:
+-112.463893530458
+
+**Beregningstid: Programmet var 0 sekunder om at beregne MP2-energien med den hurtige algoritme.
+

@@ -1,0 +1,82 @@
+-------------------------------------
+-----------BACHELORPROJEKT-----------
+-------------------------------------
+
+Indholdet fra den indlæste .xyz-fil "../../input/14h2o-DZ//geom.xyz":
+
+//////////////////////////////////////////////////
+3
+Water
+O  0.000000000000 -0.143225816552  0.000000000000
+H  1.638036840407  1.136548822547 -0.000000000000
+H -1.638036840407  1.136548822547 -0.000000000000
+//////////////////////////////////////////////////
+
+-----------HF-ENERGIBEREGNINGEN-----------
+
+Det brugte basissæt er: DZ
+Antallet af elektroner i molekylet er: 10
+Antallet af basisfunktioner er: 14
+Antallet af dobbeltokkuperede MO'er er: 5
+
+MED DIIS
+------------------------------------------------------------------------------------------------------------------------------------
+Iter.     Elek. energi / Hartrees      DeltaE / Hartrees                RMSD
+  0         -132.798981914280
+  1          -68.850894452772           63.948087461507            4.935281701148
+  2          -86.086535571067          -17.235641118295            4.026185666976
+  3          -85.620056139067            0.466479432000            0.144103202430
+  4          -84.181261266339            1.438794872728            0.147256166323
+  5          -83.957524817399            0.223736448940            0.024441258362
+  6          -83.976330164601           -0.018805347201            0.003799216503
+  7          -83.979606805412           -0.003276640812            0.000948749070
+  8          -83.980095379090           -0.000488573677            0.000189017325
+  9          -83.980241437563           -0.000146058474            0.000065712065
+ 10          -83.980247384842           -0.000005947279            0.000007067012
+ 11          -83.980245873868            0.000001510975            0.000000457127
+ 12          -83.980246034375           -0.000000160507            0.000000083911
+ 13          -83.980246036249           -0.000000001874            0.000000015708
+ 14          -83.980246037141           -0.000000000892            0.000000004255
+ 15          -83.980246037164           -0.000000000024            0.000000000111
+ 16          -83.980246037187           -0.000000000022            0.000000000018
+ 17          -83.980246037187            0.000000000000            0.000000000001
+------------------------------------------------------------------------------------------------------------------------------------
+
+Succes! Energien er konvergeret. RMSD er under den angivne grænse: 0.000000000001
+**Beregningstid: Programmet var 0 sekunder om at udføre den DIIS-accelererede HF SCF-beregning.
+
+Den endelige elektroniske energi / Hartrees:
+-83.980246037187
+
+Kernefrastødningen / Hartrees:
+8.002367061811
+
+Den endelige HF-energi / Hartrees:
+-75.977878975376
+
+--------------------MP2--------------------
+
+E(MP2) / Hartrees:
+-0.152709879075
+
+Den korrigerede elektroniske energi / Hartrees:
+-84.132955916262
+
+Den korrigerede HF-energi / Hartrees:
+-76.130588854451
+
+**Beregningstid: Programmet var 101 sekunder om at beregne MP2-energien med den langsomme algoritme.
+
+-----------------MP2Quick-----------------
+
+E(MP2) / Hartrees:
+-0.152709879075
+
+Den korrigerede elektroniske energi / Hartrees:
+-84.132955916262
+
+Den korrigerede HF-energi / Hartrees:
+-76.130588854451
+
+**Beregningstid: Programmet var 0 sekunder om at beregne MP2-energien med den hurtige algoritme.
+
